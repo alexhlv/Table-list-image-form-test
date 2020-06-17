@@ -1,0 +1,133 @@
+/* Загальні стилі */
+body {
+  min-width: 1000px;
+  max-height: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #f5f1e5;
+  background-image: url('https://img3.stockfresh.com/files/m/mamziolzi/m/20/6485731_stock-photo-flowers-watercolor-pattern.jpg');
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  background-color: burlywood;
+  color: blue;
+  
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  background-color: coral;
+  color: cornflowerblue;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  background-color: darkkhaki;
+  color: darkslateblue;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+/* Загальні стилі */
+/* Таблиці */
+.table {
+  font-family: fantasy;
+  width: 60%;
+  margin: 0 auto;
+}
+
+table {
+  background-color: azure;
+  color: brown;
+}
+
+th {
+  font-size: 18px;
+  background-color: antiquewhite;
+  color: darkgoldenrod;
+}
+
+td {
+  text-align: center;
+  font-size: 16px;
+}
+/* Таблиці */
+/* Списки */
+.list {
+  font-family: monospace;
+  width: 40%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+li {
+  font-size: small;
+  font-weight: 900;
+  font-style: italic;
+  list-style-type: none;
+  background-color: darkgray;
+  color: blueviolet;
+}
+/* Списки */
+/* Зображення */
+.image {
+  width: 80%;
+  margin: 100px auto;
+  background-color: chocolate;
+}
+
+.image table {
+  margin: 0 auto;
+}
+
+.image img {
+  width: 350px;
+  border: 10px solid burlywood;
+}
+/* Зображення */
+/* Форма */
+.form {
+  width: 40%;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+form {
+  border: 2px solid chocolate;
+  border-radius: 3%;
+  background-color: burlywood;
+}
+
+label {
+  padding: 25px;
+  color: chocolate;
+}
+
+label input {
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-color: paleturquoise;
+}
+
+.button {
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 50px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: moccasin;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: oblique;
+}
+/* Форма */
